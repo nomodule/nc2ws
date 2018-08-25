@@ -48,7 +48,7 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
-        header: 'Projects Page'
+        pageTitle: 'Projects Page'
     });
 });
 
